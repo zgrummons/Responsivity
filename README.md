@@ -24,7 +24,7 @@ The Responsivity API provides a service to any internal application that calls i
   * Cancels running task using application name from path
 
 ## Getting Started
-You start by calling one of the upsert endpoints to start service, use the JSON body endpoints if you don't want default options (15 minute timer, emails Zachariah Grummons, default should probably be changed to application support team). Once started, you must continue to POST or cancel the task before the timer runs out; otherwise people are going to get emails.  
+You start by calling one of the upsert endpoints to start service, use the JSON body endpoints if you don't want default options (15 minute timer, emails the default email address, default should probably be changed to an application support team distribution list). Once started, you must continue to POST or cancel the task before the timer runs out; otherwise people are going to get emails.  
 To stop the service, use the DELETE method.
 
 ### Sample:
